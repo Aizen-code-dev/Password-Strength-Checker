@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strenth Checker Ultimate
+    </title>
+    <link rel="icon" type="image/x-icon" href="PasswordStrenthChecker/ASSEST/Windows/icons8-password-arcade-70.png">
+
+
+
+    <link rel="stylesheet" href="PasswordStrenthChecker/CSS/Main.css">
+
+
+    <script src="https://kit.fontawesome.com/933d49ca6c.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <header class="head">
+
+        <section class="navbar">
+
+            <!-- navbar -->
+            <ol>
+                <li>
+                    <H3 style="color: white;">Password Strength Checker</H3>
+                </li>
+
+
+            </ol>
+
+
+            <ul>
+                <li id="l1"><a href="#">Home</a></li>
+                <li id="l2"><a href="#">About Us</a></li>
+                <li id="l3"><a href="#">Contact </a></li>
+
+            </ul>
+        </section>
+        <Marquee>
+            <h4 id="git">Github :Aizne-code-dev</h4>
+        </Marquee>
+    </header>
+
+
+
+
+
+    <section class="main">
+        <!-- main section -->
+        <div>
+            <H1>Take the Password Test </H1> <br>
+            <h3><i class="fa-solid fa-star-of-david  fa-bounce" style="color: #B197FC; "></i> <b>Tips:</b> Avoid the use of dictionary words or common names, and avoid using any personal information</h3>
+        </div>
+
+
+
+        <div class="password-section">
+            <span><i class="fa-solid fa-eye-slash " id="hide-password"></i>
+                <i class="fa-solid fa-eye " id="show-password" style="display: none;"></i>
+            </span>
+
+            <div class="password-container">
+
+                <input type="password" id="password" placeholder="Enter your Password" maxlength="15">
+
+                <h5 id="pass-label">No Password</h5>
+            </div>
+
+        </div>
+
+        <!-- <div class="review">
+            <h3> Review:</h3>
+            <p id="passresult"></p>
+        </div> -->
+
+        <div class="password-strength-container">
+            <p>Time To crack password</p>
+            <p id="time-to-crack"> <i class="fa-regular fa-clock fa-bounce" style="color: #63E6BE;"></i></i> 0 Seconds</p>
+
+        </div>
+
+
+
+
+
+        <h3><i class="fa-solid fa-triangle-exclamation fa-bounce" style="color: #3073d8;"></i> Your passwords are never stored. Even if they were, we have no idea who you are!</h3>
+
+    </section>
+
+
+    <div id="strength-display"></div>
+
+
+
+
+
+    <section class="footer">
+        <!-- <footer></footer> -->
+        <footer>
+            <p>&copy; 2024 Password Strenth Checker </p>
+        </footer>
+    </section>
+
+
+
+    <!-- //internal scripts -->
+    <script type="text/javascript" src="PasswordStrenthChecker/SCRIPTS/eye.js"></script>
+    <script type="text/javascript" src="PasswordStrenthChecker/SCRIPTS/strength.js"></script>
+    <script type="text/javascript" src="PasswordStrenthChecker/SCRIPTS/TimeToCrack.js"></script>
+
+</body>
+
+</html>

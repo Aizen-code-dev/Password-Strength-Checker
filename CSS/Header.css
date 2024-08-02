@@ -1,0 +1,10 @@
+.head {
+    background-image: url('header.jpg');
+    background-size: cover;
+}
+
+#git {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
