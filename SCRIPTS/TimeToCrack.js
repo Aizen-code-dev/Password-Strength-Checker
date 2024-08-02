@@ -44,17 +44,17 @@ function calculateCrackingTime(passwordValue) {
     } else if (entropy < 44) {
         crackingTime = 'less than 1 hour';
     } else if (entropy < 52) {
-        crackingTime = 'less than 1 day';
+        crackingTime = 'More than 1 day';
     } else if (entropy < 60) {
-        crackingTime = 'less than 1 week';
+        crackingTime = 'More than 1 week';
     } else if (entropy < 68) {
-        crackingTime = 'less than 1 month';
+        crackingTime = 'More than 1 month';
     } else if (entropy < 76) {
-        crackingTime = 'less than 1 year';
+        crackingTime = 'More than 1 year';
     } else if (entropy < 84) {
-        crackingTime = 'less than 10 years';
+        crackingTime = 'More than 10 years';
     } else {
-        crackingTime = 'more than 10 years';
+        crackingTime = 'More than 10 years';
     }
 
     document.getElementById('time-to-crack').innerHTML = `<i class="fa-regular fa-clock fa-bounce" style="color: #63E6BE;"></i> ${crackingTime}`;
